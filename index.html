@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>SPLI</h1>
+        <h1>TTER</h1>
+    </header>
+    <div class="keret">
+        <div class="entering">
+            <label for="amount">Bill</label>
+            <input id="amount" type="text" name="amount">
+            <label for="custom">Select Tip %</label>
+            <div class="percent ">
+                <input id="perfive" type="button" value="5%">
+                <input id="perten" type="button" value="10%">
+                <input id="perfifteen" type="button" value="15%">
+                <input id="pertwentyfive" type="button" value="25%">
+                <input id="perfifty" type="button" value="50%">
+                <input id="custom" type="text" value="Custom">
+            </div>
+            <label for="person">Number of People</label>
+            <input id="person" type="text" name="person">
+        </div>
+        <div class="resulting ">
+            Tip Amount / person Total / person Reset
+
+        </div>
+    </div>
+    <div class="attribution ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge " target="_blank ">Frontend Mentor</a>. Coded by <a href="# ">MaPal</a>.
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="script.js "></script>
+</body>
+
+</html>
