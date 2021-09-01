@@ -6,13 +6,13 @@ body {
 
 header {
     width: 100px;
-    margin: 130px auto 70px;
+    margin: 150px auto 80px;
 }
 
 h1 {
     margin: 0;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
     color: hsl(183, 20%, 36%);
     letter-spacing: 10px;
@@ -20,8 +20,8 @@ h1 {
 
 .keret {
     box-sizing: border-box;
-    width: 900px;
-    height: 420px;
+    width: 950px;
+    height: 500px;
     margin: auto;
     padding: 29px;
     background-color: hsl(0, 0%, 99%);
@@ -36,14 +36,6 @@ h1 {
 .entering {
     padding: 20px;
     width: 400px;
-}
-
-.resulting {
-    padding: 20px;
-    width: 400px;
-    color: hsl(187, 19%, 54%);
-    background-color: hsl(183, 100%, 15%);
-    border-radius: 15px;
 }
 
 #amount,
@@ -89,6 +81,51 @@ h1 {
     background-color: hsl(183, 100%, 15%);
     border: none;
     border-radius: 3px;
+}
+
+.resulting {
+    box-sizing: border-box;
+    padding: 50px 30px;
+    width: 425px;
+    color: hsl(187, 19%, 54%);
+    background-color: hsl(183, 100%, 16%);
+    border-radius: 15px;
+}
+
+.perperson {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: hsl(180, 100%, 97%);
+    font-size: 16px;
+    margin: 3px 0;
+}
+
+h5 {
+    font-size: 12px;
+    margin: 3px 0;
+}
+
+h2 {
+    font-size: 40px;
+    margin: 0;
+    color: hsl(172, 57%, 47%);
+}
+
+#restart {
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: hsl(183, 100%, 16%);
+    background-color: hsl(183, 79%, 24%);
+    border: none;
+    border-radius: 5px;
 }
 
 .btn {
